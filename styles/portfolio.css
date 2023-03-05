@@ -82,7 +82,7 @@ p {
   .project-description-part2 {
     text-align: center;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
@@ -90,21 +90,31 @@ p {
 .project-description-part2 {
   padding: 0;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section-content {
-  margin: 30px;
+.content h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 1.5;
 }
-.my-pic {
+.content p {
+  font-size: 14px;
+}
+.content {
+  margin: 30px;
+  text-align: center;
+  padding: 0;
+}
+.pic {
   width: 400px;
   height: 550px;
   border-radius: 4px;
