@@ -62,7 +62,7 @@ p {
 .hero {
   background-color: var(--secondry-color);
   text-align: center;
-  padding: 80px 20px;
+  padding: 160px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -110,6 +110,9 @@ p {
     font-size: 18px;
   }
 
+  .hero {
+    padding: 80px 20px;
+  }
   .project-description {
     padding: 0px;
     text-align: center;
@@ -126,7 +129,7 @@ p {
   padding: 0;
 }
 .content-container {
-  padding: 60px 20px;
+  padding: 160px 20px;
 }
 .content h1 {
   font-size: 64px;
